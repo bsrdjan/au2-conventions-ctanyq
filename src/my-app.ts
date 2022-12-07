@@ -16,7 +16,7 @@ export class MyApp implements IRouteableComponent {
     },
 
     {
-      path: 'dashboard',
+      path: 'user',
       component: () => import('./components/user-dashboard'),
       id: 'dashboard',
       title: 'Dashboard'
